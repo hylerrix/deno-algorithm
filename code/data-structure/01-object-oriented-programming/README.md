@@ -1,0 +1,1 @@
+Encapsulated polymorphic inheritance
