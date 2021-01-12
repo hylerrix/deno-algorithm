@@ -1,15 +1,18 @@
 # Deno Algorithm
 
-> Current Status: Learnning & Coding...
+> Current Status: Learning & Coding...
 
-To Learn Algorithm using TypeScript / JavaScript and Run with Deno!
+> Temporary Chinese name: 《Deno 算法之旅》
 
+> My deno circle: https://github.com/hylerrix?tab=repositories&q=deno
+
+To Learn Algorithm using TypeScript and Run with Deno! LeetCode, freeCodeCamp and more to challenge!
 ## TOC and its progress
 
-- [ ] \[Basic\] \[0%\] Data Structure
-- [ ] \[Basic\] \[0%\] Design Pattern
-- [ ] \[Platform\] \[0%\] LeetCode
+- [ ] \[Platform\] \[1%\] LeetCode
 - [ ] \[Platform\] \[0%\] FreeCodeCamp
+- [ ] \[Basic\] \[1%\] Data Structure
+- [ ] \[Basic\] \[0%\] Design Pattern
 - [ ] ...and more!
 
 And each TOC contains some files as below:
