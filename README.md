@@ -48,7 +48,9 @@ To join this repo, you need to use these techniques:
 * For test: [Deno std Testing](https://deno.land/std/testing).
 
 ```base
-$ deno test tests/example.test.ts
+$ deno test --import-map=import_map.json --unstable src/leetcode/
+# chrome://inspect
+$ deno test --import-map=import_map.json --unstable --inspect-brk src/leetcode/
 ```
 
 ```typescript

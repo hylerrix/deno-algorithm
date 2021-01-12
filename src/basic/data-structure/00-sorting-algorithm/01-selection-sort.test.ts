@@ -1,4 +1,4 @@
-import { assertEquals } from "../../../mod.ts"
+import { assertEquals } from "testing/asserts.ts"
 import { selectionSort, bubble_selection_like_sort } from './01-selection-sort.ts'
 
 const input = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
