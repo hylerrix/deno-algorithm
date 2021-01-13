@@ -1,5 +1,5 @@
 /**
- * Mon Jan 11, 2021, created by hylerrix
+ * Monday Jan 11, 2021, created by hylerrix
  * Runtime: 148 ms, faster than 6.56% of TypeScript online submissions for Two Sum.
  * Memory Usage: 45 MB, less than 11.29% of TypeScript online submissions for Two Sum.
  */

@@ -52,8 +52,6 @@ To join this repo, you need to use these techniques:
 
 ```base
 $ deno test --import-map=import_map.json --unstable src/leetcode/
-# chrome://inspect
-$ deno test --import-map=import_map.json --unstable --inspect-brk src/leetcode/
 ```
 
 ```typescript

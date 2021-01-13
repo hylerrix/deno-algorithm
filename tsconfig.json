@@ -1,0 +1,9 @@
+{
+  "compileOnSave ": true,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "removeComments": true,
+    "lib": [ "es6" ]
+  },
+}
