@@ -9,10 +9,10 @@
 To Learn Algorithm using TypeScript and Run with Deno! LeetCode, freeCodeCamp and more to challenge!
 ## TOC and its progress
 
-- [ ] \[Platform\] \[1%\] LeetCode
-- [ ] \[Platform\] \[0%\] FreeCodeCamp
-- [ ] \[Basic\] \[1%\] Data Structure
-- [ ] \[Basic\] \[0%\] Design Pattern
+- [ ] Platform: LeetCode - 3/1500
+- [ ] Platform: FreeCodeCamp - 0%
+- [ ] Basic: Data Structure - 1%
+- [ ] Basic: Design Pattern - 0%
 - [ ] ...and more!
 
 And each TOC contains some files as below:
