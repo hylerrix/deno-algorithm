@@ -7,7 +7,6 @@ import { converListNodeToArray, convertArrayToListNode } from "./utils/util.ts"
  * Memory Usage: 47 MB, less than 8.55% of TypeScript online submissions for Add Two Numbers.
  */
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
-  if (!l1 || !l2) { return null }
   const arrL1: number[] = converListNodeToArray(l1)
   const arrL2: number[] = converListNodeToArray(l2)
 
@@ -24,20 +23,9 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
   let prevTens = 0
   biggerArr.some((num1, index) => {
     const num2 = smallerArr[index]
-    const digit = (num1 + num2) % 10
-    // according previous prevTens, calculate current digit and push to answerArr
-    if (prevTens && digit !== 9) {
-      answerArr.push(digit + prevTens)
-      prevTens = 0
-    } else if (prevTens && digit === 9) {
-      answerArr.push(0)
-      prevTens = 1
-    } else {
-      answerArr.push(digit)
-      prevTens = 0
-    }
-    // caculate prevTens for next loop
-    prevTens = parseInt(((num1 + num2 + prevTens) / 10).toString())
+    const sum = num1 + num2 + prevTens
+    prevTens = parseInt((sum / 10).toString())
+    answerArr.push(sum % 10)
   })
   // if end of array item is 0, pop it
   if (!answerArr[answerArr.length - 1]) {

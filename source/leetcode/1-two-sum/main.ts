@@ -7,5 +7,5 @@ export default {
   BruteForce,
   BruteFunctional,
   TwoPassHashTable,
-  OnePassHashTable
+  OnePassHashTable, // winner
 }
