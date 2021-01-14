@@ -1,9 +1,9 @@
 {
   "compileOnSave ": true,
   "compilerOptions": {
+    "rootDir": "src",
     "target": "es6",
     "module": "es6",
-    "removeComments": true,
-    "lib": [ "es6" ]
+    "lib": [ "es6", "dom" ]
   },
 }

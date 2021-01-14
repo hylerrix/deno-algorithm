@@ -25,9 +25,9 @@ Deno.test({
 Deno.test({
   name: "Testing LeetCode #1 TW BruteForceFuncional()",
   fn(): void {
-    assertEquals(TW.BruteFunctional(Nums, Target), Output)
-    assertEquals(TW.BruteFunctional(Nums_1, Target_1), Output_1)
-    assertEquals(TW.BruteFunctional(Nums_2, Target_2), Output_2)
+    assertEquals(TW.BruteForceFunctional(Nums, Target), Output)
+    assertEquals(TW.BruteForceFunctional(Nums_1, Target_1), Output_1)
+    assertEquals(TW.BruteForceFunctional(Nums_2, Target_2), Output_2)
   },
 })
 
