@@ -1,5 +1,5 @@
 import BruteForce from './brute-force.ts'
-import BruteForceFunctional from './brute-functional.ts'
+import BruteForceFunctional from './brute-force-functional.ts'
 import TwoPassHashTable from './two-pass-hash-table.ts'
 import OnePassHashTable from './one-pass-hash-table.ts'
 
