@@ -52,6 +52,7 @@ To join this repo, you need to use these techniques:
 
 ```base
 $ deno test --import-map=import_map.json --unstable src/leetcode/
+$ deno lint --unstable src/challenges/
 ```
 
 ```typescript

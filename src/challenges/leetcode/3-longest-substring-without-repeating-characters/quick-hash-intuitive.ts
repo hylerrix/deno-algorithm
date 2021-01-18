@@ -7,9 +7,9 @@
 function lengthOfLongestSubstring(s: string): number {
   const { length } = s
   if (length < 2) return length
-  let max: number = 0
+  let max = 0
   const history: { [key: string]: number } = {}
-  let start: number = 0
+  let start = 0
   for (let end = 0; end < length; end++) {
     const char: string = s[end]
     

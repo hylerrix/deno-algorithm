@@ -8,7 +8,7 @@
 function lengthOfLongestSubstring(s: string): number {
   const n: number = s.length
   const set = new Set()
-  let ans: number = 0, i: number = 0, j: number = 0
+  let ans= 0, i = 0, j = 0
   while (i < n && j < n) {
     // try to extend the range [i, j]
     if (!set.has(s[j])) {

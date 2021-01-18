@@ -5,11 +5,11 @@
  */
 function lengthOfLongestSubstring(s: string): number {
   if (!s.length) { return 0 }
-  let curStr: string = ''
-  let max: number = 1
-  for (let i: number = 0; i < s.length - 1; i++) {
+  let curStr = ''
+  let max = 1
+  for (let i = 0; i < s.length - 1; i++) {
     curStr = s[i]
-    let j: number = 0
+    let j = 0
     for (j = i + 1; j < s.length; j++) {
       const jIndex: number = curStr.indexOf(s[j])
       // jump i to i+ jIndex, notice i loop will make another 'i++'

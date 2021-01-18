@@ -5,16 +5,16 @@
  * Memory Usage: 42.1 MB, less than 86.57% of TypeScript online submissions for Longest Substring Without Repeating Characters.
  */
 function lengthOfLongestSubstring(s: string): number {
-  var length: number = s.length
+  const length: number = s.length
   if (length <= 1) {
     return length
   }
-  var p: number = 0
-  var q: number = 1
-  var result: number = 1
+  let p = 0
+  let q = 1
+  let result = 1
   while (q < length) {
-    var sub = s.slice(p, q)
-    var i = sub.indexOf(s[q])
+    const sub = s.slice(p, q)
+    const i = sub.indexOf(s[q])
     if (i !== -1) {
       p = p + i + 1
     }

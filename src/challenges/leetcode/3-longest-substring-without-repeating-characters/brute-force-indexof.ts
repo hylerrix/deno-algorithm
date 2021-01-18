@@ -6,8 +6,8 @@
 function lengthOfLongestSubstring(s: string): number {
   if (s.length <= 1) { return s.length }
   // two string, one track longest sub string, one track sub string each loop
-  let longStr: string = ''
-  let curStr: string = ''
+  let longStr = ''
+  let curStr = ''
   for (let i = 0; i < s.length - 1; i++) {
     curStr = s[i]
     for (let j = i + 1; j < s.length; j++) {
