@@ -50,8 +50,8 @@ To join this repo, you need to use these techniques:
 * Fro runtime: [Deno](deno.land).
 * For test: [Deno std Testing](https://deno.land/std/testing).
 
-```base
-$ deno test --import-map=import_map.json --unstable src/leetcode/
+```bash
+$ deno test --import-map=import_map.json src/challenges/leetcode
 $ deno lint --unstable src/challenges/
 ```
 
@@ -59,6 +59,16 @@ $ deno lint --unstable src/challenges/
 const tStart: number = performance.now()
 const tEnd: number = performance.now()
 console.log('Execution Time: ', tEnd - tStart + 'ms')
+```
+
+## Test
+
+-> Github Action
+
+```bash
+$ deno test --unstable --import-map=import_map.json --coverage=./cov src/challenges/leetcode
+$ deno coverage --unstable --lcov ./cov > cov.lcov
+$ genhtml cov.lcov
 ```
 
 ## License
