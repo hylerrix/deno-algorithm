@@ -1,5 +1,5 @@
 import { ListNode } from "./utils/interface.ts"
-import { converListNodeToArray, convertArrayToListNode } from "./utils/util.ts"
+import { convertListNodeToArray, convertArrayToListNode } from "./utils/util.ts"
 
 /**
  * Tuesday Jan 12, 2021, created by hylerrix
@@ -7,8 +7,8 @@ import { converListNodeToArray, convertArrayToListNode } from "./utils/util.ts"
  * Memory Usage: 47 MB, less than 8.55% of TypeScript online submissions for Add Two Numbers.
  */
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
-  const arrL1: number[] = converListNodeToArray(l1)
-  const arrL2: number[] = converListNodeToArray(l2)
+  const arrL1: number[] = convertListNodeToArray(l1)
+  const arrL2: number[] = convertListNodeToArray(l2)
 
   const [biggerArr, smallerArr] = arrL1.length > arrL2.length
     ? [arrL1, arrL2]

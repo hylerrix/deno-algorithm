@@ -1,6 +1,6 @@
 import { assertEquals } from "testing/asserts.ts"
 import { Data, Data_1, Data_2, ListData, ListData_1, ListData_2 } from "../utils/data.ts"
-import { convertArrayToListNode, converListNodeToArray } from "../utils/util.ts"
+import { convertArrayToListNode, convertListNodeToArray } from "../utils/util.ts"
 
 Deno.test({
   name: "Testing LeetCode #2 util convertArrayToListNode",
@@ -12,10 +12,10 @@ Deno.test({
 })
 
 Deno.test({
-  name: "Testing LeetCode #2 util converListNodeToArray",
+  name: "Testing LeetCode #2 util convertListNodeToArray",
   fn(): void {
-    assertEquals(converListNodeToArray(ListData), Data)
-    assertEquals(converListNodeToArray(ListData_1), Data_1)
-    assertEquals(converListNodeToArray(ListData_2), Data_2)
+    assertEquals(convertListNodeToArray(ListData), Data)
+    assertEquals(convertListNodeToArray(ListData_1), Data_1)
+    assertEquals(convertListNodeToArray(ListData_2), Data_2)
   },
 })

@@ -1,7 +1,8 @@
-import BruteFunctional from './brute-functional.ts'
-import ElementaryMath from './elementary-math.ts'
-import ElementaryMath2 from './elementary-math.ts'
-import Recursion from './recursion.js'
+import BruteForceFunctionalArray from './brute-force-functional-array.ts'
+import ElementaryMathDummyHead from './elementary-math-dummy-head.ts'
+import ElementaryMathDummyFoot from './elementary-math-dummy-foot.ts'
+import ElementaryMathSumIsCarry from './elementary-math-sum-is-carry.ts'
+import ArgumentsRecursion from './arguments-recursion.js'
 
 // Next challenges:
 // Multiply Strings
@@ -13,8 +14,9 @@ import Recursion from './recursion.js'
 // Add Two Polynomials Represented as Linked Lists
 
 export default {
-  BruteFunctional,
-  ElementaryMath,
-  ElementaryMath2, // winner
-  Recursion,
+  BruteForceFunctionalArray,
+  ElementaryMathDummyHead,
+  ElementaryMathDummyFoot,
+  ElementaryMathSumIsCarry, // winner
+  ArgumentsRecursion,
 }

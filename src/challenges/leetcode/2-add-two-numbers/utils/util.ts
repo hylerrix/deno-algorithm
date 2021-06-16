@@ -2,7 +2,7 @@ import { ListNode } from "./interface.ts"
 
 export function convertArrayToListNode(inputArr: number[]): ListNode | null {
   if (!inputArr.length) { return null }
-  let convertArr: number[] = inputArr.slice().reverse()
+  const convertArr: number[] = inputArr.slice().reverse()
   let structureNode: ListNode = new ListNode(convertArr[0])
   convertArr.slice(1).forEach((number: number) => {
     structureNode = {
@@ -13,7 +13,7 @@ export function convertArrayToListNode(inputArr: number[]): ListNode | null {
   return structureNode
 }
 
-export function converListNodeToArray(inputNode: ListNode | null): number[] {
+export function convertListNodeToArray(inputNode: ListNode | null): number[] {
   let currentNode: ListNode | null = inputNode
   const stack: number[] = []
   while (currentNode) {

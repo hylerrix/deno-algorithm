@@ -2,11 +2,13 @@
 
 > Current Status: Learning & Coding...
 
-> Temporary Chinese name: 《Deno 算法之旅》
+> Temporary Chinese name: 《我用 Deno 刷算法》
 
 > My deno circle: https://github.com/hylerrix?tab=repositories&q=deno
 
 To Learn Algorithm using TypeScript and Run with Deno! LeetCode, freeCodeCamp and more to challenge!
+
+> Long term goal: write algorithm book for me...
 ## TOC and its progress
 
 - [ ] Platform: LeetCode - 3/1500
@@ -37,11 +39,11 @@ When the content is ready, maby a command can explore more from local terminal.
 
 Your can search the repo on VS code in [here](...)
 
--->
-
 ## i18n
 
 If you feel helpful, welcome to make translations to this repo. Now, support: English, (Chinese)...
+
+-->
 
 ## Develop
 

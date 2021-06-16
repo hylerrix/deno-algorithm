@@ -14,6 +14,12 @@ import OnePassHashTable from './one-pass-hash-table.ts'
 // Max Number of K-Sum Pairs
 // Count Good Meals
 
+/**
+ * Brute force lead the Time Complexity up to O(n^2), Space Complexity is O(1).
+ * We need to reduce the Time Complexity through adding an another intermediate variable.
+ * Hash Table is the best way to maintain a mapping of each element in the array to its index.
+ */
+
 export default {
   BruteForce,
   BruteForceFunctional,

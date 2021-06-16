@@ -23,7 +23,7 @@ export default {
       )
     },
     { text: 'Deno Tutorial', target: '_blank', link: 'https://github.com/hylerrix/deno-tutorial' },
-    { text: 'React Fullstack Handbook', target: '_blank', link: 'https://github.com/hylerrix/fullstack-react-handbook' },
+    { text: 'React Fullstack Handbook', target: '_blank', link: 'https://github.com/hylerrix/fullstack-react' },
     { text: 'TBD...', target: '_blank', link: 'https://github.com/hylerrix' },
     {
       text: 'NingoWood',
