@@ -24,7 +24,7 @@ export default {
     'contributors': [
         "hylerrix"
     ],
-    'date': "2021-03-23T03:54:31.000Z",
+    'date': "2021-06-16T02:03:29.000Z",
     'updated': null,
     'excerpt': "",
     'cover': undefined,

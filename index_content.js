@@ -84,17 +84,17 @@ const IndexPage = () => (React.createElement(React.Fragment, null,
                 marginTop: '2rem'
             } },
             React.createElement("a", { className: "btn btn-primary", href: "/articles/" }, "Start Reading"),
-            React.createElement("a", { className: "btn", target: "_blank", href: "https://github.com/hylerrix/fullstack-react-handbook" }, "Source Code"))),
+            React.createElement("a", { className: "btn", target: "_blank", href: "https://github.com/hylerrix/blitzjs-tutorial" }, "Source Code"))),
     React.createElement("h2", null, "Make a Contribution!"),
     React.createElement("pre", { style: {
             fontSize: '1rem'
         } },
         React.createElement("code", { dangerouslySetInnerHTML: {
                 __html: `# direct in issues
-https://github.com/hylerrix/fullstack-react-handbook/issues
+https://github.com/hylerrix/blitzjs-tutorial/issues
 
 # or clone & pr
-git clone https://github.com/\${YOUR_NAME}/fullstack-react-handbook
+git clone https://github.com/\${YOUR_NAME}/blitzjs-tutorial
 git add . && git commit -s -m "feat(docs): add a new article"
 git push origin main`
             } }))));
