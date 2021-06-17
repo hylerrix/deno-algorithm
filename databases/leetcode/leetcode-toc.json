@@ -1,0 +1,9 @@
+{
+  "two-sum": {
+    "number": 1,
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "keywords": [""],
+    "related topics": ["Array", "Hash Table"]
+  }
+}
