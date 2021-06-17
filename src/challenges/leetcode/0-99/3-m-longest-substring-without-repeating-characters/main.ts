@@ -1,6 +1,6 @@
 import BruteForceIndexOf from './brute-force-indexof.ts'
 import BruteForceOptimized from './brute-force-optimized.ts'
-import BruteForceHashset from './brute-force-hashset.ts'
+import BruteForceHashSet from './brute-force-hashset.ts'
 import SlidingWindow from './sliding-window.ts'
 import SlidingWindowOptimized from './sliding-window-optimized.ts'
 import QuickHash from './quick-hash.ts'
@@ -16,9 +16,9 @@ import QuickPointer from './quick-pointer.ts'
 export default {
   BruteForceIndexOf,
   BruteForceOptimized,
-  BruteForceHashset,
+  BruteForceHashSet,
   SlidingWindow,
-  SlidingWindowOptimized,
+  SlidingWindowOptimized, // winner
   QuickHash,
   QuickHashIntuitive,
   QuickPointer,

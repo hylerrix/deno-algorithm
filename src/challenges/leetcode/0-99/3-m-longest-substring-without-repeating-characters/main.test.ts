@@ -57,16 +57,16 @@ Deno.test({
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.BruteForceHashset()",
+  name: "Testing LeetCode #3 LSWRC.BruteForceHashSet()",
   fn(): void {
-    assertEquals(LSWRC.BruteForceHashset(S), Output)
-    assertEquals(LSWRC.BruteForceHashset(S_1), Output_1)
-    assertEquals(LSWRC.BruteForceHashset(S_2), Output_2)
-    assertEquals(LSWRC.BruteForceHashset(S_3), Output_3)
-    assertEquals(LSWRC.BruteForceHashset(S_4), Output_4)
-    assertEquals(LSWRC.BruteForceHashset(S_5), Output_5)
-    assertEquals(LSWRC.BruteForceHashset(S_6), Output_6)
-    assertEquals(LSWRC.BruteForceHashset(S_7), Output_7)
+    assertEquals(LSWRC.BruteForceHashSet(S), Output)
+    assertEquals(LSWRC.BruteForceHashSet(S_1), Output_1)
+    assertEquals(LSWRC.BruteForceHashSet(S_2), Output_2)
+    assertEquals(LSWRC.BruteForceHashSet(S_3), Output_3)
+    assertEquals(LSWRC.BruteForceHashSet(S_4), Output_4)
+    assertEquals(LSWRC.BruteForceHashSet(S_5), Output_5)
+    assertEquals(LSWRC.BruteForceHashSet(S_6), Output_6)
+    assertEquals(LSWRC.BruteForceHashSet(S_7), Output_7)
   },
 })
 
