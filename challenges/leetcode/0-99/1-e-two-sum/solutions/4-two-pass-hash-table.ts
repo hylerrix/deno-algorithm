@@ -1,5 +1,5 @@
 /**
- * Monday Jan 11, 2021, created by hylerrix
+ * Jan 11, 2021 (Monday), created by hylerrix
  * Runtime: 92 ms, faster than 32.45% of TypeScript online submissions for Two Sum.
  * Memory Usage: 40.5 MB, less than 24.08% of TypeScript online submissions for Two Sum.
  * Time complexity : O(n). We traverse the list containing n elements exactly twice. Since the hash table reduces the look up time to O(1), the time complexity is O(n).

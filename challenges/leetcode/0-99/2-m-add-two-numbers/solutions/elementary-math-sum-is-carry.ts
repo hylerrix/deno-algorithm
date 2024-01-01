@@ -1,7 +1,7 @@
 import { ListNode } from "../utils/interface.ts"
 
 /**
- * Wednesday Jan 13, 2021, created by hylerrix
+ * Jan 13, 2021 (Wednesday), created by hylerrix
  * Runtime: 132 ms, faster than 89.19% of TypeScript online submissions for Add Two Numbers.
  * Memory Usage: 44.4 MB, less than 83.55% of TypeScript online submissions for Add Two Numbers.
  * 

@@ -1,5 +1,18 @@
-# 1. (Easy) Two Sum
+# README.md
 
-Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
-
-You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
+```
+.
+├── README.md
+├── articles
+│   ├── 1-Topic-zh-CN.md
+│   ├── 1-Topic.md
+│   ├── 2-Explanation-zh-CN.md
+│   └── 2-Explanation.md
+├── main.test.ts
+├── main.ts
+└── solutions
+    ├── 1-brute-force.ts
+    ├── 2-brute-force-functional.ts
+    ├── 3-one-pass-hash-table.ts
+    └── 4-two-pass-hash-table.ts
+```

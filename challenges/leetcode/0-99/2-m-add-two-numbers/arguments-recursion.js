@@ -1,7 +1,7 @@
 import { ListNode } from "./utils/interface.ts"
 
 /**
- * Wednesday Jan 13, 2021, created by hylerrix
+ * Jan 13, 2021 (Wednesday), created by hylerrix
  * https://leetcode.com/problems/add-two-numbers/solution/215253
  * Runtime: 136 ms, faster than 66.14% of JavaScript online submissions for Add Two Numbers.
  * Memory Usage: 46.1 MB, less than 10.57% of JavaScript online submissions for Add Two Numbers.

@@ -2,7 +2,7 @@ import { ListNode } from "../utils/interface.ts"
 import { convertListNodeToArray, convertArrayToListNode } from "../utils/util.ts"
 
 /**
- * Tuesday Jan 12, 2021, created by hylerrix
+ * Jan 12, 2021 (Tuesday), created by hylerrix
  * Runtime: 156 ms, faster than 23.39% of TypeScript online submissions for Add Two Numbers.
  * Memory Usage: 47 MB, less than 8.55% of TypeScript online submissions for Add Two Numbers.
  */

@@ -1,5 +1,5 @@
 /**
- * Thursday Jan 14, 2021, created by hylerrix
+ * Jan 14, 2021 (Thursday), created by hylerrix
  * Runtime: 308 ms, faster than 31.79% of TypeScript online submissions for Longest Substring Without Repeating Characters.
  * Memory Usage: 45.4 MB, less than 42.24% of TypeScript online submissions for Longest Substring Without Repeating Characters.
  */

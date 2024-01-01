@@ -1,7 +1,7 @@
-import BruteForce from './solutions/brute-force.ts'
-import BruteForceFunctional from './solutions/brute-force-functional.ts'
-import TwoPassHashTable from './solutions/two-pass-hash-table.ts'
-import OnePassHashTable from './solutions/one-pass-hash-table.ts'
+import BruteForce from './solutions/1-brute-force.ts'
+import BruteForceFunctional from './solutions/2-brute-force-functional.ts'
+import TwoPassHashTable from './solutions/4-two-pass-hash-table.ts'
+import OnePassHashTable from './solutions/3-one-pass-hash-table.ts'
 
 // Next challenges:
 // 3Sum

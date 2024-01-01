@@ -1,5 +1,5 @@
 /**
- * Thursday Jan 14, 2021, created by hylerrix
+ * Jan 14, 2021 (Thursday), created by hylerrix
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/632177
  * Runtime: 136 ms, faster than 52.69% of TypeScript online submissions for Longest Substring Without Repeating Characters.
  * Memory Usage: 44.3 MB, less than 65.22% of TypeScript online submissions for Longest Substring Without Repeating Characters.

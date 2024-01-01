@@ -1,4 +1,4 @@
-# Deno Algorithm
+# Deno Algorithm <img align="right" alt="Profile Hits" src="https://komarev.com/ghpvc/?username=hylerrix-deno-algorithm&style=flat-square">
 
 [简体中文版](./README-zh-CN.md)
 
