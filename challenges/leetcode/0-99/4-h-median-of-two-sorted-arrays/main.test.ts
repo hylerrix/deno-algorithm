@@ -1,5 +1,6 @@
-import { assertEquals } from "testing/asserts.ts"
-import MOTSA from './main.ts'
+import { asserts } from "../../../../deps.ts"
+
+import solutions from './main.ts'
 
 // merged array = [1,2,3] and median is 2.
 const Nums1: number[] = [1, 3]
@@ -24,23 +25,23 @@ const Nums2_4: number[] = []
 const Output_4 = 2
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.BruteForce()",
+  name: "Testing LeetCode #3 solutions.BruteForce()",
   fn(): void {
-    assertEquals(MOTSA.BruteForceFunctional(Nums1, Nums2), Output)
-    assertEquals(MOTSA.BruteForceFunctional(Nums1_1, Nums2_1), Output_1)
-    assertEquals(MOTSA.BruteForceFunctional(Nums1_2, Nums2_2), Output_2)
-    assertEquals(MOTSA.BruteForceFunctional(Nums1_3, Nums2_3), Output_3)
-    assertEquals(MOTSA.BruteForceFunctional(Nums1_4, Nums2_4), Output_4)
+    asserts.assertEquals(solutions.BruteForceFunctional(Nums1, Nums2), Output)
+    asserts.assertEquals(solutions.BruteForceFunctional(Nums1_1, Nums2_1), Output_1)
+    asserts.assertEquals(solutions.BruteForceFunctional(Nums1_2, Nums2_2), Output_2)
+    asserts.assertEquals(solutions.BruteForceFunctional(Nums1_3, Nums2_3), Output_3)
+    asserts.assertEquals(solutions.BruteForceFunctional(Nums1_4, Nums2_4), Output_4)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.BruteForce()",
+  name: "Testing LeetCode #3 solutions.RecursiveApproach()",
   fn(): void {
-    assertEquals(MOTSA.BruteForceFuRecursiveApproachnctional(Nums1, Nums2), Output)
-    assertEquals(MOTSA.RecursiveApproach(Nums1_1, Nums2_1), Output_1)
-    assertEquals(MOTSA.RecursiveApproach(Nums1_2, Nums2_2), Output_2)
-    assertEquals(MOTSA.BruteForceFunRecursiveApproachctional(Nums1_3, Nums2_3), Output_3)
-    assertEquals(MOTSA.BruteForceFunctional(Nums1_4, Nums2_4), Output_4)
+    asserts.assertEquals(solutions.RecursiveApproach(Nums1, Nums2), Output)
+    asserts.assertEquals(solutions.RecursiveApproach(Nums1_1, Nums2_1), Output_1)
+    asserts.assertEquals(solutions.RecursiveApproach(Nums1_2, Nums2_2), Output_2)
+    asserts.assertEquals(solutions.RecursiveApproach(Nums1_3, Nums2_3), Output_3)
+    asserts.assertEquals(solutions.RecursiveApproach(Nums1_4, Nums2_4), Output_4)
   },
 })

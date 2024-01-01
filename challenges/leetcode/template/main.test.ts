@@ -1,14 +1,14 @@
-import { assertEquals } from "testing/asserts.ts"
-import MOTSA from './main.ts'
+import { asserts } from "../../../deps.ts"
 
-// The answer is "abc", with the length of 3.
+import solutions from './main.ts'
+
 const Nums1: number[] = [1, 3]
 const Nums2: number[] = [2]
-const Output = 2.00000
+const Output = 3
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.BruteForce()",
+  name: "Testing LeetCode #3 solutions.BruteForce()",
   fn(): void {
-    assertEquals(MOTSA.BruteForce(Nums1, Nums2), Output)
+    asserts.assertEquals(solutions.BruteForce(Nums1, Nums2), Output)
   },
 })

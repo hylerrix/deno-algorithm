@@ -4,15 +4,15 @@ class MyHashMap {
   }
 
   put(key: number, value: number): void {
-
+    console.log(key, value)
   }
 
-  get(key: number): number {
-
+  get(key: number): void {
+    console.log(key)
   }
 
   remove(key: number): void {
-
+    console.log(key)
   }
 }
 

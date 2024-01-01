@@ -1,61 +1,37 @@
-# Deno Algorithm
+# Deno Algorithm - 《我用 Deno 刷算法》
 
 > Current Status: Learning & Coding...
+> 当前状态：学习 & 编码
 
-> Temporary Chinese name: 《我用 Deno 刷算法》
+> 我的 Deno 生态圈: https://github.com/hylerrix?tab=repositories&q=deno
 
-> My deno circle: https://github.com/hylerrix?tab=repositories&q=deno
-
-To Learn Algorithm using TypeScript and Run with Deno! LeetCode, freeCodeCamp and more to challenge!
-
-> Long term goal: write algorithm book for me...
+在 Deno 中使用 TypeScript 学习算法！LeetCode、freeCodeCamp 等更多内容同步中。
 
 ## TOC and its progress
 
-- [ ] Platform: LeetCode - 3/1500
-- [ ] Platform: FreeCodeCamp - 0%
-- [ ] Basic: Data Structure - 1%
-- [ ] Basic: Design Pattern - 0%
-- [ ] ...and more!
+- [ ] 平台: LeetCode - 3/1500
+- [ ] 平台: FreeCodeCamp - 0%
+- [ ] 基础: 数据结构 - 1%
+- [ ] 基础: 设计模式  - 0%
+- [ ] ...以及更多！
 
-And each TOC contains some files as below:
+每个目录包含一些文件，如下所示：
 
-* `README.md`: to introduce this chapter\'s goal and how to challenge it.
-* **`.ts`**: The solution in the TypeScript version for this chapter. It will contain strict types as much as possible.
-* **`.test.ts`**: test file for `.ts` source.
-* `.js`: The solution in JavaScript version for this chapter. It focuses on the hacking trick which can not pass in the strict type check.
-* `.test.js`: test file for `.js` source.
+* `README(*-zh-CN).md`: 介绍本章的目标以及如何挑战它。
+* **`/solutions/*.ts`**: 本章 TypeScript 版本中的解决方案。 它将尽可能包含严格类型。
+* `/solutions/*.js`: 本章JavaScript版本的解决方案。 它重点关注无法通过严格类型检查的黑客技巧。
+* **`.test.ts`**: `.ts` 答案的测试文件。
+* `.test.js`: `.js` 答案的测试文件。
 
-<!--
+## 开发
 
-## Terminal Command
+想要使用当前仓库，你需要如下技术：
 
-When the content is ready, maby a command can explore more from local terminal.
-
-- [ ] Support a command something like `deal` to explore this repo.
-  - [ ] `deal list`: list different TOC and we can select futher to the problem.
-  - [ ] `deal search ${name}`: search and select related problem solution we want to solve.
-
-## VS Code Extensions
-
-Your can search the repo on VS code in [here](...)
-
-## i18n
-
-If you feel helpful, welcome to make translations to this repo. Now, support: English, (Chinese)...
-
--->
-
-## Develop
-
-To join this repo, you need to use these techniques:
-
-* Fro runtime: [Deno](deno.land).
-* For test: [Deno std Testing](https://deno.land/std/testing).
+* 运行时 [Deno](deno.land): Mac 中推荐使用 Hombrew 安装
 
 ```bash
-$ deno test --import-map=import_map.json src/challenges/leetcode
-$ deno lint --unstable src/challenges/
+$ deno test challenges/leetcode
+$ deno lint challenges/leetcode
 ```
 
 ```typescript
@@ -64,16 +40,16 @@ const tEnd: number = performance.now()
 console.log('Execution Time: ', tEnd - tStart + 'ms')
 ```
 
-## Test
+## 测试
 
 -> Github Action
 
 ```bash
-$ deno test --unstable --import-map=import_map.json --coverage=./cov src/challenges/leetcode
-$ deno coverage --unstable --lcov ./cov > cov.lcov
+$ deno test --coverage=./cov challenges/leetcode
+$ deno coverage --lcov ./cov > cov.lcov
 $ genhtml cov.lcov
 ```
 
-## License
+## 开源协议
 
-MIT License
+MIT 协议

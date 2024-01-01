@@ -1,5 +1,6 @@
-import { assertEquals } from "testing/asserts.ts"
-import LSWRC from './main.ts'
+import { asserts } from "../../../../deps.ts"
+
+import solutions from './main.ts'
 
 // The answer is "abc", with the length of 3.
 const S = 'abcabcbb'
@@ -29,113 +30,113 @@ const S_7 = ' '
 const Output_7 = 1
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.BruteForce()",
+  name: "Testing LeetCode #3 solutions.BruteForce()",
   fn(): void {
-    assertEquals(LSWRC.BruteForceIndexOf(S), Output)
-    assertEquals(LSWRC.BruteForceIndexOf(S_1), Output_1)
-    assertEquals(LSWRC.BruteForceIndexOf(S_2), Output_2)
-    assertEquals(LSWRC.BruteForceIndexOf(S_3), Output_3)
-    assertEquals(LSWRC.BruteForceIndexOf(S_4), Output_4)
-    assertEquals(LSWRC.BruteForceIndexOf(S_5), Output_5)
-    assertEquals(LSWRC.BruteForceIndexOf(S_6), Output_6)
-    assertEquals(LSWRC.BruteForceIndexOf(S_7), Output_7)
+    asserts.assertEquals(solutions.BruteForceIndexOf(S), Output)
+    asserts.assertEquals(solutions.BruteForceIndexOf(S_1), Output_1)
+    asserts.assertEquals(solutions.BruteForceIndexOf(S_2), Output_2)
+    asserts.assertEquals(solutions.BruteForceIndexOf(S_3), Output_3)
+    asserts.assertEquals(solutions.BruteForceIndexOf(S_4), Output_4)
+    asserts.assertEquals(solutions.BruteForceIndexOf(S_5), Output_5)
+    asserts.assertEquals(solutions.BruteForceIndexOf(S_6), Output_6)
+    asserts.assertEquals(solutions.BruteForceIndexOf(S_7), Output_7)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.BruteForceOptimized()",
+  name: "Testing LeetCode #3 solutions.BruteForceOptimized()",
   fn(): void {
-    assertEquals(LSWRC.BruteForceOptimized(S), Output)
-    assertEquals(LSWRC.BruteForceOptimized(S_1), Output_1)
-    assertEquals(LSWRC.BruteForceOptimized(S_2), Output_2)
-    assertEquals(LSWRC.BruteForceOptimized(S_3), Output_3)
-    assertEquals(LSWRC.BruteForceOptimized(S_4), Output_4)
-    assertEquals(LSWRC.BruteForceOptimized(S_5), Output_5)
-    assertEquals(LSWRC.BruteForceOptimized(S_6), Output_6)
-    assertEquals(LSWRC.BruteForceOptimized(S_7), Output_7)
+    asserts.assertEquals(solutions.BruteForceOptimized(S), Output)
+    asserts.assertEquals(solutions.BruteForceOptimized(S_1), Output_1)
+    asserts.assertEquals(solutions.BruteForceOptimized(S_2), Output_2)
+    asserts.assertEquals(solutions.BruteForceOptimized(S_3), Output_3)
+    asserts.assertEquals(solutions.BruteForceOptimized(S_4), Output_4)
+    asserts.assertEquals(solutions.BruteForceOptimized(S_5), Output_5)
+    asserts.assertEquals(solutions.BruteForceOptimized(S_6), Output_6)
+    asserts.assertEquals(solutions.BruteForceOptimized(S_7), Output_7)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.BruteForceHashSet()",
+  name: "Testing LeetCode #3 solutions.BruteForceHashSet()",
   fn(): void {
-    assertEquals(LSWRC.BruteForceHashSet(S), Output)
-    assertEquals(LSWRC.BruteForceHashSet(S_1), Output_1)
-    assertEquals(LSWRC.BruteForceHashSet(S_2), Output_2)
-    assertEquals(LSWRC.BruteForceHashSet(S_3), Output_3)
-    assertEquals(LSWRC.BruteForceHashSet(S_4), Output_4)
-    assertEquals(LSWRC.BruteForceHashSet(S_5), Output_5)
-    assertEquals(LSWRC.BruteForceHashSet(S_6), Output_6)
-    assertEquals(LSWRC.BruteForceHashSet(S_7), Output_7)
+    asserts.assertEquals(solutions.BruteForceHashSet(S), Output)
+    asserts.assertEquals(solutions.BruteForceHashSet(S_1), Output_1)
+    asserts.assertEquals(solutions.BruteForceHashSet(S_2), Output_2)
+    asserts.assertEquals(solutions.BruteForceHashSet(S_3), Output_3)
+    asserts.assertEquals(solutions.BruteForceHashSet(S_4), Output_4)
+    asserts.assertEquals(solutions.BruteForceHashSet(S_5), Output_5)
+    asserts.assertEquals(solutions.BruteForceHashSet(S_6), Output_6)
+    asserts.assertEquals(solutions.BruteForceHashSet(S_7), Output_7)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.SlidingWindow()",
+  name: "Testing LeetCode #3 solutions.SlidingWindow()",
   fn(): void {
-    assertEquals(LSWRC.SlidingWindow(S), Output)
-    assertEquals(LSWRC.SlidingWindow(S_1), Output_1)
-    assertEquals(LSWRC.SlidingWindow(S_2), Output_2)
-    assertEquals(LSWRC.SlidingWindow(S_3), Output_3)
-    assertEquals(LSWRC.SlidingWindow(S_4), Output_4)
-    assertEquals(LSWRC.SlidingWindow(S_5), Output_5)
-    assertEquals(LSWRC.SlidingWindow(S_6), Output_6)
-    assertEquals(LSWRC.SlidingWindow(S_7), Output_7)
+    asserts.assertEquals(solutions.SlidingWindow(S), Output)
+    asserts.assertEquals(solutions.SlidingWindow(S_1), Output_1)
+    asserts.assertEquals(solutions.SlidingWindow(S_2), Output_2)
+    asserts.assertEquals(solutions.SlidingWindow(S_3), Output_3)
+    asserts.assertEquals(solutions.SlidingWindow(S_4), Output_4)
+    asserts.assertEquals(solutions.SlidingWindow(S_5), Output_5)
+    asserts.assertEquals(solutions.SlidingWindow(S_6), Output_6)
+    asserts.assertEquals(solutions.SlidingWindow(S_7), Output_7)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.SlidingWindowOptimized()",
+  name: "Testing LeetCode #3 solutions.SlidingWindowOptimized()",
   fn(): void {
-    assertEquals(LSWRC.SlidingWindowOptimized(S), Output)
-    assertEquals(LSWRC.SlidingWindowOptimized(S_1), Output_1)
-    assertEquals(LSWRC.SlidingWindowOptimized(S_2), Output_2)
-    assertEquals(LSWRC.SlidingWindowOptimized(S_3), Output_3)
-    assertEquals(LSWRC.SlidingWindowOptimized(S_4), Output_4)
-    assertEquals(LSWRC.SlidingWindowOptimized(S_5), Output_5)
-    assertEquals(LSWRC.SlidingWindowOptimized(S_6), Output_6)
-    assertEquals(LSWRC.SlidingWindowOptimized(S_7), Output_7)
+    asserts.assertEquals(solutions.SlidingWindowOptimized(S), Output)
+    asserts.assertEquals(solutions.SlidingWindowOptimized(S_1), Output_1)
+    asserts.assertEquals(solutions.SlidingWindowOptimized(S_2), Output_2)
+    asserts.assertEquals(solutions.SlidingWindowOptimized(S_3), Output_3)
+    asserts.assertEquals(solutions.SlidingWindowOptimized(S_4), Output_4)
+    asserts.assertEquals(solutions.SlidingWindowOptimized(S_5), Output_5)
+    asserts.assertEquals(solutions.SlidingWindowOptimized(S_6), Output_6)
+    asserts.assertEquals(solutions.SlidingWindowOptimized(S_7), Output_7)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.QuickHash()",
+  name: "Testing LeetCode #3 solutions.QuickHash()",
   fn(): void {
-    assertEquals(LSWRC.QuickHash(S), Output)
-    assertEquals(LSWRC.QuickHash(S_1), Output_1)
-    assertEquals(LSWRC.QuickHash(S_2), Output_2)
-    assertEquals(LSWRC.QuickHash(S_3), Output_3)
-    assertEquals(LSWRC.QuickHash(S_4), Output_4)
-    assertEquals(LSWRC.QuickHash(S_5), Output_5)
-    assertEquals(LSWRC.QuickHash(S_6), Output_6)
-    assertEquals(LSWRC.QuickHash(S_7), Output_7)
+    asserts.assertEquals(solutions.QuickHash(S), Output)
+    asserts.assertEquals(solutions.QuickHash(S_1), Output_1)
+    asserts.assertEquals(solutions.QuickHash(S_2), Output_2)
+    asserts.assertEquals(solutions.QuickHash(S_3), Output_3)
+    asserts.assertEquals(solutions.QuickHash(S_4), Output_4)
+    asserts.assertEquals(solutions.QuickHash(S_5), Output_5)
+    asserts.assertEquals(solutions.QuickHash(S_6), Output_6)
+    asserts.assertEquals(solutions.QuickHash(S_7), Output_7)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.QuickHashIntuitive()",
+  name: "Testing LeetCode #3 solutions.QuickHashIntuitive()",
   fn(): void {
-    assertEquals(LSWRC.QuickHashIntuitive(S), Output)
-    assertEquals(LSWRC.QuickHashIntuitive(S_1), Output_1)
-    assertEquals(LSWRC.QuickHashIntuitive(S_2), Output_2)
-    assertEquals(LSWRC.QuickHashIntuitive(S_3), Output_3)
-    assertEquals(LSWRC.QuickHashIntuitive(S_4), Output_4)
-    assertEquals(LSWRC.QuickHashIntuitive(S_5), Output_5)
-    assertEquals(LSWRC.QuickHashIntuitive(S_6), Output_6)
-    assertEquals(LSWRC.QuickHashIntuitive(S_7), Output_7)
+    asserts.assertEquals(solutions.QuickHashIntuitive(S), Output)
+    asserts.assertEquals(solutions.QuickHashIntuitive(S_1), Output_1)
+    asserts.assertEquals(solutions.QuickHashIntuitive(S_2), Output_2)
+    asserts.assertEquals(solutions.QuickHashIntuitive(S_3), Output_3)
+    asserts.assertEquals(solutions.QuickHashIntuitive(S_4), Output_4)
+    asserts.assertEquals(solutions.QuickHashIntuitive(S_5), Output_5)
+    asserts.assertEquals(solutions.QuickHashIntuitive(S_6), Output_6)
+    asserts.assertEquals(solutions.QuickHashIntuitive(S_7), Output_7)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #3 LSWRC.QuickPointer()",
+  name: "Testing LeetCode #3 solutions.QuickPointer()",
   fn(): void {
-    assertEquals(LSWRC.QuickPointer(S), Output)
-    assertEquals(LSWRC.QuickPointer(S_1), Output_1)
-    assertEquals(LSWRC.QuickPointer(S_2), Output_2)
-    assertEquals(LSWRC.QuickPointer(S_3), Output_3)
-    assertEquals(LSWRC.QuickPointer(S_4), Output_4)
-    assertEquals(LSWRC.QuickPointer(S_5), Output_5)
-    assertEquals(LSWRC.QuickPointer(S_6), Output_6)
-    assertEquals(LSWRC.QuickPointer(S_7), Output_7)
+    asserts.assertEquals(solutions.QuickPointer(S), Output)
+    asserts.assertEquals(solutions.QuickPointer(S_1), Output_1)
+    asserts.assertEquals(solutions.QuickPointer(S_2), Output_2)
+    asserts.assertEquals(solutions.QuickPointer(S_3), Output_3)
+    asserts.assertEquals(solutions.QuickPointer(S_4), Output_4)
+    asserts.assertEquals(solutions.QuickPointer(S_5), Output_5)
+    asserts.assertEquals(solutions.QuickPointer(S_6), Output_6)
+    asserts.assertEquals(solutions.QuickPointer(S_7), Output_7)
   },
 })

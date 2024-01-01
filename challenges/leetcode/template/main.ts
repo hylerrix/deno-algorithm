@@ -1,4 +1,4 @@
-import BruteForce from './brute-force.ts'
+import BruteForce from './solutions/brute-force.ts'
 
 // Next challenges:
 

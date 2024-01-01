@@ -1,5 +1,5 @@
-import BruteForceFunctional from './brute-force-functional.ts'
-import RecursiveApproach from './brute-force-functional.ts'
+import BruteForceFunctional from './solutions/brute-force-functional.ts'
+import RecursiveApproach from './solutions/brute-force-functional.ts'
 
 // Follow up: The overall run time complexity should be O(log (m+n)).
 // Next challenges:

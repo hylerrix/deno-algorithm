@@ -4,7 +4,7 @@
  * Memory Usage: 45.2 MB, less than 48.36% of TypeScript online submissions for Longest Substring Without Repeating Characters.
  */
 function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
-  return 0.00000
+  return nums1[0] + nums2[0]
 }
 
 export default findMedianSortedArrays

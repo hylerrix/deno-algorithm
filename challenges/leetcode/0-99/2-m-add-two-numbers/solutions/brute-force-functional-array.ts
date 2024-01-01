@@ -1,5 +1,5 @@
-import { ListNode } from "./utils/interface.ts"
-import { convertListNodeToArray, convertArrayToListNode } from "./utils/util.ts"
+import { ListNode } from "../utils/interface.ts"
+import { convertListNodeToArray, convertArrayToListNode } from "../utils/util.ts"
 
 /**
  * Tuesday Jan 12, 2021, created by hylerrix

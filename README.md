@@ -1,14 +1,6 @@
 # Deno Algorithm
 
-<!-- TOC -->
-
-- [Deno Algorithm](#deno-algorithm)
-  - [TOC and its progress](#toc-and-its-progress)
-  - [Develop](#develop)
-  - [Test](#test)
-  - [License](#license)
-
-<!-- /TOC -->
+[简体中文版](./README-zh-CN.md)
 
 > Current Status: Learning & Coding...
 
@@ -17,8 +9,6 @@
 > My deno circle: https://github.com/hylerrix?tab=repositories&q=deno
 
 To Learn Algorithm using TypeScript and Run with Deno! LeetCode, freeCodeCamp and more to challenge!
-
-> Long term goal: write algorithm book for me...
 
 ## TOC and its progress
 
@@ -31,9 +21,9 @@ To Learn Algorithm using TypeScript and Run with Deno! LeetCode, freeCodeCamp an
 And each TOC contains some files as below:
 
 * `README.md`: to introduce this chapter\'s goal and how to challenge it.
-* **`.ts`**: The solution in the TypeScript version for this chapter. It will contain strict types as much as possible.
+* **`/solutions/.ts`**: The solution in the TypeScript version for this chapter. It will contain strict types as much as possible.
+* `/solutions/*.js`: The solution in JavaScript version for this chapter. It focuses on the hacking trick which can not pass in the strict type check.
 * **`.test.ts`**: test file for `.ts` source.
-* `.js`: The solution in JavaScript version for this chapter. It focuses on the hacking trick which can not pass in the strict type check.
 * `.test.js`: test file for `.js` source.
 
 <!--
@@ -78,8 +68,8 @@ console.log('Execution Time: ', tEnd - tStart + 'ms')
 -> Github Action
 
 ```bash
-$ deno test --unstable --import-map=import_map.json --coverage=./cov src/challenges/leetcode
-$ deno coverage --unstable --lcov ./cov > cov.lcov
+$ deno test --coverage=./cov challenges/leetcode
+$ deno coverage --lcov ./cov > cov.lcov
 $ genhtml cov.lcov
 ```
 

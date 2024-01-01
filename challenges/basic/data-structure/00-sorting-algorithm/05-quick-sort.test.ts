@@ -1,4 +1,4 @@
-import { assertEquals } from "testing/asserts.ts"
+import { asserts } from "../../../../deps.ts"
 import { quickSort } from './05-quick-sort.ts'
 
 const input = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
@@ -11,8 +11,8 @@ const expect_02 = [1, 3, 5, 7, 233, 999]
 Deno.test({
   name: "Testing quickSort()",
   fn(): void {
-    assertEquals(quickSort(input), expect)
-    assertEquals(quickSort(input_01), expect_01)
-    assertEquals(quickSort(input_02), expect_02)
+    asserts.assertEquals(quickSort(input), expect)
+    asserts.assertEquals(quickSort(input_01), expect_01)
+    asserts.assertEquals(quickSort(input_02), expect_02)
   },
 })

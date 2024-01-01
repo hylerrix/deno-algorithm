@@ -1,4 +1,4 @@
-import { ListNode } from "./utils/interface.ts"
+import { ListNode } from "../utils/interface.ts"
 
 /**
  * Wednesday Jan 13, 2021, created by hylerrix

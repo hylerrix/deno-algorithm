@@ -1,4 +1,4 @@
-import { assertEquals } from "testing/asserts.ts"
+import { asserts } from "../../../../deps.ts"
 import { mergeSort } from './04-merge-sort.ts'
 
 const input = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
@@ -11,8 +11,8 @@ const expect_02 = [1, 3, 5, 7, 233, 999]
 Deno.test({
   name: "Testing mergeSort()",
   fn(): void {
-    assertEquals(mergeSort(input), expect)
-    assertEquals(mergeSort(input_01), expect_01)
-    assertEquals(mergeSort(input_02), expect_02)
+    asserts.assertEquals(mergeSort(input), expect)
+    asserts.assertEquals(mergeSort(input_01), expect_01)
+    asserts.assertEquals(mergeSort(input_02), expect_02)
   },
 })
