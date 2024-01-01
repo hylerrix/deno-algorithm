@@ -1,4 +1,7 @@
-// @deno-types="https://deno.land/x/pagic@v0.9.1/src/types/react/v16.13.1/react.d.ts"
-import React from 'https://dev.jspm.io/react@16.13.1'
+export * as asserts from 'https://deno.land/std@0.111.0/testing/asserts.ts'
+
+import * as React from 'https://esm.sh/react@18.2.0'
+
+(window as any).React = React
 
 export { React }

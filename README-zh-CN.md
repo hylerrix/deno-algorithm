@@ -1,15 +1,5 @@
 # Deno Algorithm
 
-<!-- TOC -->
-
-- [Deno Algorithm](#deno-algorithm)
-  - [TOC and its progress](#toc-and-its-progress)
-  - [Develop](#develop)
-  - [Test](#test)
-  - [License](#license)
-
-<!-- /TOC -->
-
 > Current Status: Learning & Coding...
 
 > Temporary Chinese name: 《我用 Deno 刷算法》
@@ -38,7 +28,7 @@ And each TOC contains some files as below:
 
 <!--
 
-## 2. Terminal Command
+## Terminal Command
 
 When the content is ready, maby a command can explore more from local terminal.
 
@@ -46,13 +36,14 @@ When the content is ready, maby a command can explore more from local terminal.
   - [ ] `deal list`: list different TOC and we can select futher to the problem.
   - [ ] `deal search ${name}`: search and select related problem solution we want to solve.
 
-## 3. VS Code Extensions
+## VS Code Extensions
 
 Your can search the repo on VS code in [here](...)
 
-## 4. i18n
+## i18n
 
 If you feel helpful, welcome to make translations to this repo. Now, support: English, (Chinese)...
+
 -->
 
 ## Develop

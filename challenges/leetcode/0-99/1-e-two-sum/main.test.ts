@@ -1,50 +1,51 @@
-import { assertEquals } from "testing/asserts.ts"
-import TW from './main.ts'
+import { asserts } from "../../../../deps.ts"
+
+import solutions from './main.ts'
 
 const Nums: number[] = [2, 7, 11, 15]
-const Target: number = 9
+const Target = 9
 const Output: number[] = [0, 1]
 
 const Nums_1: number[] = [3, 2, 4]
-const Target_1: number = 6
+const Target_1 = 6
 const Output_1: number[] = [1, 2]
 
 const Nums_2: number[] = [3, 3]
-const Target_2: number = 6
+const Target_2 = 6
 const Output_2: number[] = [0, 1]
 
 Deno.test({
-  name: "Testing LeetCode #1 TW.BruteForce()",
+  name: "Testing LeetCode #1 solutions.BruteForce()",
   fn(): void {
-    assertEquals(TW.BruteForce(Nums, Target), Output)
-    assertEquals(TW.BruteForce(Nums_1, Target_1), Output_1)
-    assertEquals(TW.BruteForce(Nums_2, Target_2), Output_2)
+    asserts.assertEquals(solutions.BruteForce(Nums, Target), Output)
+    asserts.assertEquals(solutions.BruteForce(Nums_1, Target_1), Output_1)
+    asserts.assertEquals(solutions.BruteForce(Nums_2, Target_2), Output_2)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #1 TW BruteForceFuncional()",
+  name: "Testing LeetCode #1 solutions.BruteForceFuncional()",
   fn(): void {
-    assertEquals(TW.BruteForceFunctional(Nums, Target), Output)
-    assertEquals(TW.BruteForceFunctional(Nums_1, Target_1), Output_1)
-    assertEquals(TW.BruteForceFunctional(Nums_2, Target_2), Output_2)
+    asserts.assertEquals(solutions.BruteForceFunctional(Nums, Target), Output)
+    asserts.assertEquals(solutions.BruteForceFunctional(Nums_1, Target_1), Output_1)
+    asserts.assertEquals(solutions.BruteForceFunctional(Nums_2, Target_2), Output_2)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #1 TW TwoPassHashTable()",
+  name: "Testing LeetCode #1 solutions.TwoPassHashTable()",
   fn(): void {
-    assertEquals(TW.TwoPassHashTable(Nums, Target), Output)
-    assertEquals(TW.TwoPassHashTable(Nums_1, Target_1), Output_1)
-    assertEquals(TW.TwoPassHashTable(Nums_2, Target_2), Output_2)
+    asserts.assertEquals(solutions.TwoPassHashTable(Nums, Target), Output)
+    asserts.assertEquals(solutions.TwoPassHashTable(Nums_1, Target_1), Output_1)
+    asserts.assertEquals(solutions.TwoPassHashTable(Nums_2, Target_2), Output_2)
   },
 })
 
 Deno.test({
-  name: "Testing LeetCode #1 TW OnePassHashTable()",
+  name: "Testing LeetCode #1 solutions.OnePassHashTable()",
   fn(): void {
-    assertEquals(TW.OnePassHashTable(Nums, Target), Output)
-    assertEquals(TW.OnePassHashTable(Nums_1, Target_1), Output_1)
-    assertEquals(TW.OnePassHashTable(Nums_2, Target_2), Output_2)
+    asserts.assertEquals(solutions.OnePassHashTable(Nums, Target), Output)
+    asserts.assertEquals(solutions.OnePassHashTable(Nums_1, Target_1), Output_1)
+    asserts.assertEquals(solutions.OnePassHashTable(Nums_2, Target_2), Output_2)
   },
 })

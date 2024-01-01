@@ -1,4 +1,4 @@
-# LeetCode Note
+# Note
 
 ## Data Structure in JavaScript
 
