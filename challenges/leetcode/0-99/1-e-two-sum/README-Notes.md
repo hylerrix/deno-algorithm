@@ -1,6 +1,6 @@
 # Explanation
 
-|方案|结果|
+|Solutions|Result|
 |-|-|
 |BruteForce||
 |BruteForceFunctional||
